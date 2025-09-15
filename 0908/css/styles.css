@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* comment */
+
+/* article */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, article, footer {
+    text-align: center;
+}
+
+/* nav */
+
+nav {
+    background-color: teal;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: bisque;
+    background-color: black;
+}
+
+article{
+    display: inline-block;
+        /*設定寬度，否則會以內容元素中最寬的元素寬度作為預設*/
+    width: 180px;
+        /*設定邊寬作為檢視*/
+    border: solid 1px #ddd;
+    margin:20px;
+}
+
+.article_a {
+    color: red;
+}
+
+.article_a:hover article {
+    background-color: teal;
+    color: white;
+}
+
+.article_a:active article {
+    background-color: yellow;
+    color: black;
+}
