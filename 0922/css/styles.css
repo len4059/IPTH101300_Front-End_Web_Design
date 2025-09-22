@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+header aside {
+    width: 80%;
+    margin: auto;
+}
+
+aside > a {
+    float: left;
+    width: 50px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    float: right;
+}
+
+nav > a {
+    float: right;
+    padding: 1.5em;
+    color:rgba(20, 33, 61, 1);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color:rgba(245, 235, 224, 1);
+}

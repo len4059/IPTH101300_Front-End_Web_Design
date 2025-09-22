@@ -30,6 +30,11 @@ nav a:hover {
     background-color: black;
 }
 
+section {
+    width: 80%;
+    margin: auto;    
+}
+
 article{
     display: inline-block;
         /*設定寬度，否則會以內容元素中最寬的元素寬度作為預設*/
