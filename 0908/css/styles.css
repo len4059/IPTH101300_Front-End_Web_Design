@@ -46,6 +46,22 @@ article{
 
 .article_a {
     color: red;
+    text-decoration: none; 
+}
+
+.midterm-article {
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10%;
+}
+
+.midterm-h2 {
+    color: orange;
+}
+
+.midterm-p {
+    color: darksalmon;
+    font-weight: bold;
 }
 
 .article_a:hover article {
