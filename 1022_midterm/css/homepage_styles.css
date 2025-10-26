@@ -1,0 +1,220 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3em 3em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    font-size: 1.2em;
+    color: black;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: black;
+    font-size: 0.8em;
+    transition: color 0.4s;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+nav a.active {
+    color: cornflowerblue;
+}
+
+main {
+    width: 100%;
+    height: 95vh;
+}
+
+.about-me-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 150%;
+}
+
+.left-box {
+    flex: 4;               
+    background-color:rgb(173, 195, 217);
+}
+
+.right-box {
+    flex: 6;
+    background-color: white;
+}
+
+.profile-card {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background: rgb(198, 219, 246);
+    width: 400px;
+    box-shadow: -10px 15px 25px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.profile-card-body {
+    padding: 2em 2em 1.5em;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1.5em auto;
+}
+
+.profile-card h2 {
+    font-size: 2em;
+}
+
+.profile-card p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.profile-card .divider {
+    width: 30%;              
+    height: 1px;              
+    background-color: #000000;   
+    border: none;             
+    margin: 2em auto;     
+}
+
+.profile-card .title {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+.profile-card-link{
+    background:#fff;
+    display:flex; 
+    justify-content:center; 
+    padding:0.3em 0;
+    gap: 20px;
+}
+
+.profile-card-link img {
+    width: 42px;
+    height: 42px;
+}
+
+.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;               
+    transform: translateY(-50%);
+    width: 400px;  
+}
+
+.intro-text h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+.intro-text 
+.subtitle {
+    font-size: 2em;
+    color: #444;
+    margin: 0.5em 0 1.5em;
+}
+
+.button-group {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 3em; 
+}
+
+.about-me-resume-button {
+    background-color: rgb(121, 184, 248);
+    color: white;
+    padding: 0.5em 2em;
+    border: solid #000000 1px;
+    border-radius: 40px;
+    justify-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about-me-resume-button:visited {
+    color: white;
+    background-color: rgb(0, 61, 122);
+}
+
+.about-me-resume-button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+
+.about-me-projects-button {
+    background-color: white;
+    color: black;
+    padding: 0.5em 2em;
+    border: solid #000000 1px;
+    border-radius: 40px;
+    justify-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about-me-projects-button:visited {
+    color: black;
+    background-color: white;
+}
+
+.about-me-projects-button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 61, 122);
+    color: white;
+}
+
+.intro-text 
+.description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3em 3em;
+}
