@@ -7,6 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(173, 195, 217)
 }
 
 header {
@@ -50,4 +51,103 @@ nav a:hover {
 
 nav a.active {
     color: cornflowerblue;
+}
+
+main {
+    width: 100%;
+}
+
+.contact-hero {
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-title h1 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: 700;
+}
+
+.blue-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #004aad;
+    border-radius: 2px;
+}
+
+/* --- Form Card --- */
+
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+}
+
+.contact-form {
+    background-color: white;
+    width: 600px;
+    padding: 3em 4em;
+    border-radius: 4px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.5em 0;
+    font-size: 1em;
+    outline: none;
+    background: none;
+}
+
+input:focus, textarea:focus {
+    border-bottom-color: #004aad;
+}
+
+button {
+    background-color: rgb(0, 61, 122);
+    color: white;
+    padding: 0.5em 2em;
+    border: solid #000000 1px;
+    border-radius: 40px;
+    justify-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:visited {
+    color: white;
+    background-color: rgb(0, 61, 122);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
 }
